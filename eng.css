@@ -1,0 +1,94 @@
+/* --------- Departments Page (eng.css) --------- */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #171717;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header p {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.departments {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 320px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card h2 {
+  padding: 10px;
+  font-size: 22px;
+  color: #171717;
+  text-align: center;
+}
+
+.card p {
+  padding: 0 15px 15px;
+  font-size: 16px;
+  color: #555;
+  text-align: justify;
+  flex-grow: 1;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  padding: 15px;
+  background-color: #171717;
+  color: white;
+  font-size: 14px;
+}
+
+/* تنسيق زرار View More */
+.view-more-container {
+  width: 100%;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.view-more-button {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #171717;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.view-more-button:hover {
+  background-color: #333;
+}
